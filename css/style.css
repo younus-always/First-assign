@@ -23,7 +23,7 @@ button{
   border: none;
 }
 button > a{
-  padding: 14px 24px;
+  padding: 12px 22px;
   background: #fff;
   border: 2px solid rgb(24, 24, 24);
   border-radius: 8px;
@@ -44,7 +44,7 @@ a{
 
 nav{
   max-width: 1148px;
-  height: 70px;
+  height: 80px;
   margin: auto;
   display: flex;
   align-items: center;
