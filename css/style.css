@@ -124,6 +124,9 @@ nav > h2 {
       line-height: 28px;
       margin-bottom: 25px;
   }
+  .reverse-group{
+    flex-direction: row-reverse;
+  }
   
   .group-box {
       background: #fff;
@@ -156,4 +159,19 @@ nav > h2 {
   /* --------------
     My_Inspiration
     --------------- */
-    
+#inspiration{
+  padding-block: 60px;
+}
+.inspiration-video{
+  padding-block: 30px;
+  margin-top: 20px;
+
+}
+.inspiration-video iframe{
+  width: 100%;
+  height: 500px;
+}
+
+/* ---------------
+  Current_Target
+  ----------------*/
