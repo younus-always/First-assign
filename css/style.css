@@ -22,8 +22,17 @@ button{
   border: none;
 }
 button > a{
-  padding: 12px 24px;
-  border: 1px solid rgb(24, 24, 24);
+  padding: 14px 24px;
+  background: #fff;
+  border: 2px solid rgb(24, 24, 24);
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  transition: all .3s;
+}
+button > a:hover{
+  background: rgb(24, 24, 24);
+  color: #fff;
 }
 a{
   text-decoration: none;
@@ -56,9 +65,10 @@ nav > h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-block: 40px
   }
   .hero-content{
-    width: 1090px;
+    width: 990px;
     margin: 0 auto;
     padding: 30px;
     text-align: center;
@@ -66,18 +76,84 @@ nav > h2 {
   .hero-image{
     margin-bottom: 30px;
   }
-  .hero-image img{
-
-  }
   .hero-title{
-    font-size: 50px;
+    font-size: 46px;
     margin-bottom: 25px;
   }
-  .hero-subtitle{
+  .hero-subtitle {
     font-size: 18px;
-    line-height: 26px;
+    line-height: 28px;
     color: rgb(18, 18, 18);
+    margin-bottom: 28px;
   }
-  .contact-btn{
+ 
+  .contact-btn button > a{
+    background: rgb(24, 24, 24);
+    color: #fff;
+  }
+  .contact-btn button > a:hover{
+    background: #fff;
+    color: rgb(24, 24, 24);
+  }
 
+  /* -----------------
+    Why_web_development
+    ----------------- */
+    #web-dev{
+      padding-block: 90px;
+    }
+
+    .web-dev-container{
+      background: rgba(13, 19, 33, 0.02);
+      border-radius: 14px;
+      padding: 70px;
+    }
+    .same-heading {
+      text-align: center;
+      width: 860px;
+      margin: auto;
   }
+  
+  .same-heading h2 {
+      font-size: 35px;
+      margin-bottom: 23px;
+  }
+  
+  .same-heading p {
+      font-size: 17px;
+      line-height: 28px;
+      margin-bottom: 25px;
+  }
+  
+  .group-box {
+      background: #fff;
+      border-radius: 14px;
+      margin-bottom: 18px;
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+  }
+  
+  .group-box-content h3 {
+      font-size: 25px;
+      margin-bottom: 12px;
+  }
+  
+  .group-box-content {
+      width: 50%;
+  }
+  
+  .group-box-content p {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 25px;
+  }
+  .learn-btn{
+     border-radius: 4px;
+     padding: 12px 20px;
+  }
+
+  /* --------------
+    My_Inspiration
+    --------------- */
+    
