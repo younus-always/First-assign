@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body{
   font-family: "Roboto", sans-serif;
@@ -160,7 +161,7 @@ nav > h2 {
     My_Inspiration
     --------------- */
 #inspiration{
-  padding-block: 60px;
+  padding-block: 30px;
 }
 .inspiration-video{
   padding-block: 30px;
@@ -231,7 +232,7 @@ font-weight: 600;
       margin-bottom: 20px;
       padding: 30px;
       border-radius: 14px;
-      border: 1px solid;
+      border: 1px solid #b8b0b0;
   }
   
   .tech-desc {
@@ -305,3 +306,21 @@ input[type="button"]:hover{
   #footer{
     padding-block: 30px;
   }
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icon {
+    display: flex;
+}
+
+.footer-container p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.social-icon a {
+    margin-left: 12px;
+}
